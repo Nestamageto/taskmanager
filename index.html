@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Task Manager</h1>
+        </header>
+        <main>
+            <section class="task-input">
+                <h2>Add New Task</h2>
+                <input type="text" id="new-task-input" placeholder="Enter a new task">
+                <button id="add-task-btn">Add Task</button>
+            </section>
+            <section class="task-list">
+                <h2>Pending Tasks</h2>
+                <ul id="pending-tasks"></ul>
+            </section>
+            <section class="completed-list">
+                <h2>Completed Tasks</h2>
+                <ul id="completed-tasks"></ul>
+            </section>
+            <button id="save-completed-btn">Save Completed Tasks</button>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+[
+    {
+        "text": "Learn JavaScript",
+        "status": "pending"
+    },
+    {
+        "text": "Build a Task Manager",
+        "status": "completed"
+    }
+]
